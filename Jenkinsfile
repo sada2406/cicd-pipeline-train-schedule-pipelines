@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  stage {
+  stages {
     stage ('Build') {
       stage {
       echo "Running build Automation"
